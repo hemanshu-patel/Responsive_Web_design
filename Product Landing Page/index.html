@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500&family=Montserrat:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img src="https://thumbs.dreamstime.com/z/book-logo-vector-drawing-represents-design-53875554.jpg?w=768"
+                    alt="logo" id="header-img" />
+                <span class="the-product">Classic Books</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features" class="nav-links">Features</a></li>
+                <li><a href="#audio" class="nav-links">Free Audio Book</a></li>
+                <li><a href="#for_sale" class="nav-links">For Sale</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="email-section">
+        <h2>Beautifully Written Masterpieces</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form ">
+            <input id="email" type="email" placeholder="Enter your email address" name="email" required />
+            <input type="submit" id="submit" value="GET STARTED"> </input>
+        </form>
+    </section>
+    
+    <section id="features">
+        <div class="feature">
+            <i class="ri-file-paper-fill ri-4x icon"> </i>
+            <div>
+                <h2>Premium Books</h2>
+                <p>
+                    Our Books use the best paper which is sourced increase the longevity of your purchase.
+                </p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-truck-fill ri-4x icon"></i>
+            <div>
+                <h2>1 Day Shipping</h2>
+                <p>
+                    We make sure you receive your classic book as that you can start reading immediately. We also
+                    provide free returns if you are not satisfied
+                </p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-book-open-line ri-4x icon"></i>
+            <div>
+                <h2>Quality Books Only</h2>
+                <p>
+                    We male sure to only provide awesome classic books.We guarantee that the bok you buy is one of the
+                    top classic books on the market.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Youtube Video section -->
+    <section id="audio">
+        <iframe id="video" height="400" src="https://www.youtube.com/embed/xsAO_c_5sXk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </section>
+
+
+    <section id="for_sale">
+        <h2>For Sale</h2>
+        <div class="product-cards">
+            <!-- Book One -->
+            <div class="card">                
+                <div class="product-image product1"></div>
+                <div class="inner-card">
+                    <div class="author"> Mahesh Kaushik </div>
+                    <h1 class="header">How to Make Profit in Share Market</h1>
+                    <p class="content">This book is an excellent work of the famous financial advisor Mahesh Chandra
+                        Kaushik. It focuses on retail investors and provides useful suggestions for their
+                        investments. The writer has made it easy and an interesting to read, avoiding use of
+                        technical jargon.
+                    </p>
+                    <div class="flex">
+                        <p class="main-price ">$16.12</p>
+                        <p class="old-price ">$19.29</p>
+                    </div>
+                    <button class="add">
+                        <p style="margin-left: 5px">Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Book two -->
+            <div class="card">                
+                <div class="product-image product2"></div>
+                <div class="inner-card">
+                    <div class="author">Robert G. Hagstrom</div>
+                    <h1 class="header">The Warren Buffett Way</h1>
+                    <p class="content">"It's far better to buy a wonderful company at a fair price than a fair
+                        company at a wonderful price." In his 1989 letter to Berkshire Hathaway shareholders,
+                        Buffett weighed in on the commitment and faith needed to succeed on Wall Street.
+                    </p>
+                    <div class="flex">
+                        <p class="main-price ">$18.90</p>
+                        <p class="old-price ">$21.34</p>
+                    </div>
+                    <button class="add">
+                        <p style="margin-left: 5px">Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+
+            
+            <!-- Book Three -->
+            <div class="card">                
+                <div class="product-image product3"></div>
+                <div class="inner-card">
+                    <div class="author"> Neil Borate</div>
+                    <h1 class="header">The Big Bull of Dalal Street: How Rakesh Jhunjhunwala Made His Fortune</h1>
+                    <p class="content">'Respect the market. Have an open mind. Know what to stake. Know when to take
+                        a loss. Be responsible,' this is what Rakesh Jhunjhunwala, India's iconic stock market
+                        investor, often used to say. This book looks at the life of India's big bull, as Rakesh was
+                        famously known, both as a person and as a professional.
+                    </p>
+                    <div class="flex">
+                        <p class="main-price ">$15.70</p>
+                        <p class="old-price ">$17.90</p>
+                    </div>
+                    <button class="add">
+                        <p style="margin-left: 5px">Add to Cart</p>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
