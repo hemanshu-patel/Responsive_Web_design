@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey form</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 id="title"> How can Investors invest their money in share market? </h1>
+
+  <p id="description"> Thank you for taking time to help the investors for future growth.</p>
+  <form id="survey-form">
+    <div class="input-element">
+      <label id="name-label">
+        Name:-
+      </label>
+      <input id="name" placeholder="Name" type="text" required />
+    </div>
+    <div class="input-element">
+      <label id="email-label">Email:-</label>
+      <input id="email" placeholder="Email" type="email" required />
+    </div>
+    <div class="input-element">
+      <label id="number-label">
+        Age(optional):-
+      </label>
+      <input placeholder="Age" min="5" max="100" type="number" id="number" required />
+    </div>
+    <div class="input-element">
+      <label id="Selct-label">
+        Do you have any prior knoweldge of Market?
+      </label>
+      <select id="dropdown" class="form-control" required>
+        <option disabled selected value>Select an options
+        <option>
+        <option Value="Compltely new">Don't know anything</option>
+        <option Value="Basics">Basics</option>
+        <option Value="Intermediate">Intermediate</option>
+        <option Value="Advanced">Advanced</option>
+      </select>
+    </div>
+    <div class="input-element">
+      <p>Whould you recommneded to a friend</p>
+      <label><input type="radio" name="user-recomend" class="input-radio" value="definetly" checked />Definetly
+      </label><br>
+      <label><input type="radio" name="user-recomend" class="input-radio" value="yes" />Yes
+      </label><br>
+      <label><input type="radio" name="user-recomend" class="input-radio" value="no" />Maybe</label>
+    </div>
+    <div>
+      <p class="input-element" id="Selct-label"> Which Billionaire you like the most? </p>
+      <label><input class="input-checkbox" name="prefer" type="checkbox" value="person">Rakesh
+        jhunjhunwala</input></label><br>
+      <label><input class="input-checkbox" name="prefer" type="checkbox" value="person">Harshad
+        Mehta</input></label><br>
+      <label><input class="input-checkbox" name="prefer" type="checkbox" value="person">Mukesh
+        Ambani</input></label><br>
+      <label><input class="input-checkbox" name="prefer" type="checkbox" value="person">Warren
+        Buffet</input></label><br>
+      <label><input class="input-checkbox" name="prefer" type="checkbox" value="person">Steve jobs</input></label><br>
+      <label><input class="input-checkbox" name="prefer" type="checkbox" value="person">Larry
+        Ellison</input></label><br>
+      <label><input class="input-checkbox" name="prefer" type="checkbox" value="person">Bill Gates</input></label><br>
+      <label><input class="input-checkbox" name="prefer" type="checkbox" value="person">Jeff Bezos</input></label><br>
+      <label><input class="input-checkbox" name="prefer" type="checkbox" value="person">Mark
+        Zukerberg</input></label><br>
+      <label><input class="input-checkbox" name="prefer" type="checkbox" value="person">Elon musk</input></label><br>
+    </div>
+    <div class="input-element">
+      <p>Which further topics on share market you would recommended?</p>
+      <textarea id="comments" name="comments" placeholder="Enter your topic"></textarea>
+    </div>
+    <div class="input-element">
+      <button type="submit" name="submit" id="submit">Submit</button>
+    </div>
+
+    </div>
+
+  </form>
+</body>
+
+</html>
